@@ -128,21 +128,3 @@ textarea {
   background-color: palevioletred;
   color: white;
 }
-#active {
-  display: inline-block;
-  font-size: 1.5rem; 
-  padding: 2px;
-  border: 2px solid transparent;
-  border-radius: 50%;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#active:active, #active:hover {
-  background-color: rgba(255, 223, 186, 0.5);
-  border-color: #ffbf00;
-  box-shadow: 0 0 15px rgba(255, 191, 0, 0.7), 0 0 30px rgba(255, 191, 0, 0.4);
-  transform: scale(1.1);
-}
